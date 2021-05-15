@@ -1,0 +1,9 @@
+random_complex 随机生成障碍物点云
+waypoint_generator 给定目标点
+odom_visualization 四旋翼可视化
+pcl_rander_node 简单版局部传感器模型，返回局部范围障碍物点云
+trajectory_generator_node 生成可行轨迹
+traj_server:将多项式轨迹转换成控制指令
+so3_control:将控制指令转换成实际控制量
+quadrotor_simulator_so3:无人机仿真模型
+
