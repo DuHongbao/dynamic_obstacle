@@ -208,6 +208,7 @@ void renderSensedPoints(const ros::TimerEvent &event)
             _local_map.points.push_back(pt);
         }
     }
+    //
     else
     {
         return;
